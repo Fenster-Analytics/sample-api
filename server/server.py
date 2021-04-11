@@ -34,7 +34,6 @@ class TestItem(Resource):
     #
     def get(self, id=None):
         ''' Get Resource '''
-
         # TODO: return something meaningful
         return self.get_test_data(id)
 
